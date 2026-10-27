@@ -6,7 +6,7 @@
 |---|---|
 | **Universidade** | Universidade Europeia IADE |
 | **Curso** | Licenciatura em Engenharia Informática |
-| **Elementos** | Cátia Macedo (20240609) · Ricardo Sanches (20241085) · Rui Francisco (20240912) |
+| **Elementos** | Cátia Macedo (20240609) · Ricardo Sanches (20241085) · Rui Francisco (20240912) · Bruno Roque (20241696) |
 | **Projeto** | Miniestufa Inteligente — sistema IoT de monitorização, automação e análise de culturas |
 | **Docentes** | Pedro Rosa · Alexandre Pereira · João Monge · Carla Pereira |
 | **Unidades curriculares** | Sistemas Distribuídos · Computação Física e IoT · Inteligência Artificial · Engenharia de Software |
@@ -35,7 +35,7 @@ Cultivar uma planta exige vigilância constante. A temperatura, a humidade do so
 
 ### Proposta
 
-Uma miniestufa de **80 × 40 × 50 cm** (comprimento × largura × altura; 0,32 m² de base e 0,160 m³ de volume) para cultivar uma espécie de cada vez.
+Uma miniestufa de **80 × 40 × 40 cm** (comprimento × largura × altura; 0,32 m² de base e 0,160 m³ de volume) para cultivar uma espécie de cada vez.
 
 O utilizador escolhe a cultura e a fase de desenvolvimento num dashboard. O ESP32 lê os sensores, aplica regras locais de ventilação, rega e aquecimento e mostra os valores em displays junto à estufa. Os dados são enviados para um servidor, guardados em MySQL e apresentados em tempo real. A partir do histórico, um módulo de Inteligência Artificial analisa os dados e propõe soluções, como a correção dos níveis de azoto, fósforo e potássio (NPK).
 
@@ -112,8 +112,8 @@ Estudantes, docentes, laboratórios pedagógicos e pessoas interessadas em horti
 | Componente | Modelo | Qtd. | Função |
 |---|---|---|---|
 | Microcontrolador | ESP32 DevKit V1 | 1 | Controlo local e ligação Wi-Fi |
-| Sensor do ar | DHT11 | 1 | Temperatura e humidade do ar |
-| Sensor de temperatura | Keyestudio DS18B20 | 1 | Temperatura adicional |
+| Sensor do ar | DHT11 | 1 | Humidade do ar |
+| Sensor de temperatura | Keyestudio DS18B20 | 1 | Temperatura |
 | Sensor de luminosidade | BH1750 | 1 | Luminosidade ambiente |
 | Sonda de solo | FABULETTA 7 em 1 (RS485 Modbus) | 1 | Temperatura, humidade, pH, EC, N, P e K do solo |
 | Transceiver RS485 | MAX3485 | 1 | Comunicação com a sonda de solo |
@@ -163,9 +163,10 @@ Os sensores enviam as leituras ao ESP32, que aplica as regras locais e comanda o
 
 | Elemento | Responsabilidades principais |
 |---|---|
-| Cátia Macedo | Comunicação, servidor, API, base de dados e dashboard |
+| Cátia Macedo | Comunicação, servidor e API |
 | Ricardo Sanches | Hardware, circuitos e montagem |
-| Rui Francisco | Gestão do projeto, requisitos, testes e Inteligência Artificial |
+| Rui Francisco | Gestão do projeto, requisitos e testes |
+| Bruno Roque | Inteligência Artificial, base de dados e dashboard |
 
 Todas as entregas são preparadas por todos.
 
@@ -203,10 +204,10 @@ gantt
     Servidor, API e MySQL iniciais (Cátia)        :2026-11-01, 2026-11-30
     Protótipo funcional M2 (Todos)                :crit, 2026-11-16, 2026-11-30
     section Milestone 3
-    Planeamento do modelo de IA (Cátia)           :2026-12-01, 2026-12-18
+    Planeamento do modelo de IA (Cátia e Bruno)           :2026-12-01, 2026-12-18
     Integração de atuadores e displays (Cátia e Ricardo) :2026-12-01, 2027-01-15
     Base de dados e protocolo REST (Ricardo)      :2026-12-16, 2027-01-09
     Plano e validação de testes (Rui)             :2026-12-16, 2027-01-15
-    Modelo de IA (Cátia e Rui)                    :2027-01-01, 2027-01-29
+    Modelo de IA (Cátia e Bruno)                    :2027-01-01, 2027-01-29
     Entrega final M3 (Todos)                      :crit, 2027-01-16, 2027-02-01
 ```
