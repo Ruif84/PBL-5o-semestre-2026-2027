@@ -161,12 +161,12 @@ Os sensores enviam as leituras ao ESP32, que aplica as regras locais e comanda o
 
 ### Distribuição de tarefas
 
-| Elemento | Responsabilidades principais |
-|---|---|
-| Cátia Macedo | Comunicação, servidor e API |
-| Ricardo Sanches | Hardware, circuitos e montagem |
-| Rui Francisco | Gestão do projeto, requisitos e testes |
-| Bruno Roque | Inteligência Artificial, base de dados e dashboard |
+| Elemento | Área principal | Percentagem |
+|---|---|---:|
+| Cátia Macedo | Comunicação, servidor, API REST e integração |
+| Ricardo Sanches | Hardware, sensores, montagem e ensaios |
+| Rui Francisco | Gestão, requisitos, configuração de culturas e testes |
+| Bruno Roque | Inteligência Artificial, MySQL e dashboard |
 
 Todas as entregas são preparadas por todos.
 
@@ -174,18 +174,23 @@ Todas as entregas são preparadas por todos.
 
 | Atividade | Responsável | Período |
 |---|---|---|
-| Proposta inicial (M1) | Todos | até 27/10/2026 |
-| Especificação de requisitos (ES) | Rui | até 13/11/2026 |
-| Funcionalidades, sensores e atuadores (IoT) | Ricardo | até 14/11/2026 |
-| Montagem do hardware e ensaios | Ricardo | novembro e dezembro |
-| Servidor, API REST e MySQL iniciais | Cátia | novembro |
-| Protótipo funcional (M2) | Todos | até 30/11/2026 |
-| Planeamento do modelo de IA | Cátia | até 18/12/2026 |
-| Integração de atuadores, displays e dashboard | Cátia e Ricardo | dezembro a meados de janeiro |
-| Base de dados e protocolo REST (IoT) | Ricardo | até 09/01/2027 |
-| Plano e validação de testes (ES) | Rui | até 15/01/2027* |
-| Modelo de IA | Cátia e Rui | até 29/01/2027 |
-| Entrega final (M3) | Todos | até 01/02/2027 |
+| Proposta inicial (M1) | Todos | Até 27/10/2026 |
+| Gestão e acompanhamento do projeto | Rui | Novembro a fevereiro |
+| Especificação de requisitos (ES) | Rui | Até 13/11/2026 |
+| Definição das funcionalidades IoT | Ricardo | Até 14/11/2026 |
+| Montagem do hardware e circuitos | Ricardo | Novembro e dezembro |
+| Servidor e API REST iniciais | Cátia | Novembro |
+| Estrutura inicial da base de dados MySQL | Bruno | Novembro |
+| Protótipo funcional (M2) | Todos | Até 30/11/2026 |
+| Planeamento do modelo de IA | Cátia e Bruno | Até 18/12/2026 |
+| Comunicação IoT e protocolo REST | Cátia | Dezembro a janeiro |
+| Integração dos componentes de software | Cátia | Dezembro a janeiro |
+| Integração e ensaios de sensores e atuadores | Ricardo | Dezembro a janeiro |
+| Desenvolvimento do módulo de configuração de culturas | Rui | Dezembro a janeiro |
+| Plano e validação de testes (ES) | Rui | Até 15/01/2027 |
+| Desenvolvimento do dashboard | Bruno | Dezembro a janeiro |
+| Desenvolvimento do modelo de IA | Cátia e Bruno | Até 29/01/2027 |
+| Entrega final (M3) | Todos | Até 01/02/2027 |
 
 
 ### Gráfico de Gantt
@@ -195,19 +200,27 @@ gantt
     title Cronograma da Miniestufa Inteligente
     dateFormat YYYY-MM-DD
     axisFormat %d/%m
+
     section Milestone 1
-    Proposta inicial (Todos)                      :2026-10-20, 2026-10-27
+    Proposta inicial (Todos) :2026-10-20, 2026-10-27
+
     section Milestone 2
-    Requisitos ES (Rui)                           :2026-11-01, 2026-11-13
-    Funcionalidades IoT (Ricardo)                 :2026-11-01, 2026-11-14
-    Montagem do hardware (Ricardo)                :2026-11-01, 2026-12-31
-    Servidor, API e MySQL iniciais (Cátia)        :2026-11-01, 2026-11-30
-    Protótipo funcional M2 (Todos)                :crit, 2026-11-16, 2026-11-30
+    Gestão do projeto (Rui) :2026-11-01, 2027-02-01
+    Requisitos ES (Rui) :2026-11-01, 2026-11-13
+    Funcionalidades IoT (Ricardo) :2026-11-01, 2026-11-14
+    Montagem hardware (Ricardo) :2026-11-01, 2026-12-31
+    Servidor e API REST (Cátia) :2026-11-01, 2026-11-30
+    Base de dados MySQL (Bruno) :2026-11-01, 2026-11-30
+    Protótipo funcional M2 (Todos) :crit, 2026-11-16, 2026-11-30
+
     section Milestone 3
-    Planeamento do modelo de IA (Cátia e Bruno)           :2026-12-01, 2026-12-18
-    Integração de atuadores e displays (Cátia e Ricardo) :2026-12-01, 2027-01-15
-    Base de dados e protocolo REST (Ricardo)      :2026-12-16, 2027-01-09
-    Plano e validação de testes (Rui)             :2026-12-16, 2027-01-15
-    Modelo de IA (Cátia e Bruno)                    :2027-01-01, 2027-01-29
-    Entrega final M3 (Todos)                      :crit, 2027-01-16, 2027-02-01
+    Planeamento IA (Cátia e Bruno) :2026-12-01, 2026-12-18
+    Comunicação IoT REST (Cátia) :2026-12-01, 2027-01-09
+    Integração software (Cátia) :2026-12-16, 2027-01-15
+    Ensaios hardware (Ricardo) :2026-12-01, 2027-01-15
+    Configuração culturas (Rui) :2026-12-01, 2027-01-09
+    Plano e testes ES (Rui) :2026-12-16, 2027-01-15
+    Dashboard (Bruno) :2026-12-01, 2027-01-15
+    Modelo IA (Cátia e Bruno) :2027-01-01, 2027-01-29
+    Entrega final M3 (Todos) :crit, 2027-01-16, 2027-02-01
 ```
