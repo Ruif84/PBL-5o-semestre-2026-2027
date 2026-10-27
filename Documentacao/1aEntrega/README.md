@@ -160,8 +160,8 @@ Os sensores enviam as leituras ao ESP32, que aplica as regras locais e comanda o
 
 ### Distribuição de tarefas
 
-| Elemento | Área principal | Percentagem |
-|---|---|---:|
+| Elemento | Área principal |
+|---|---:|
 | Cátia Macedo | Comunicação, servidor, API REST e integração |
 | Ricardo Sanches | Hardware, sensores, montagem e ensaios |
 | Rui Francisco | Gestão, requisitos, configuração de culturas e testes |
