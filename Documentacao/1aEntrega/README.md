@@ -151,13 +151,13 @@ Todos os componentes estão identificados, exceto a bomba de água. A quantidade
 
 ## 6. Arquitetura da solução
 
-![Arquitetura da solução](imagens/arquitetura.png)
+![Arquitetura da solução](Imagens/arquitetura.png)
 
 Os sensores enviam as leituras ao ESP32, que aplica as regras locais e comanda os atuadores e os displays. Por Wi-Fi, o ESP32 comunica com o servidor, que disponibiliza uma API REST e um canal WebSocket. O servidor guarda os dados em MySQL e atualiza o dashboard. O módulo de IA trabalha sobre o histórico e não controla diretamente os atuadores.
 
 ### Esboço do artefacto físico
 
-![Esboço da miniestufa](imagens/esboco.png)
+![Esboço da miniestufa](Imagens/esboco.png)
 
 *Esboço da miniestufa gerado por IA.*
 
