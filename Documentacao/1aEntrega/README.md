@@ -62,15 +62,11 @@ Reduzir a vigilância manual e criar um protótipo onde se possam experimentar c
 | Pepino compacto | 22–28 °C | 6,0–7,0 | 50–85 dias |
 | Rabanete | 15–22 °C | 6,0–7,0 | 25–45 dias |
 
-*Valores orientativos, sujeitos a calibração.*
-
 ---
 
 ## 2. Público-alvo
 
 Estudantes, docentes, laboratórios pedagógicos e pessoas interessadas em horticultura de pequena escala que queiram acompanhar uma cultura sem estar sempre junto dela.
-
-**Fora do âmbito:** fertilização automática (a IA recomenda ações, mas não aplica nutrientes) e refrigeração ativa. A tira LED serve apenas para demonstrar a automação da iluminação.
 
 ---
 
@@ -111,8 +107,6 @@ Estudantes, docentes, laboratórios pedagógicos e pessoas interessadas em horti
 
 ## 5. Requisitos técnicos e tecnologias
 
-*Provisórios, a confirmar ao longo do projeto.*
-
 ### Hardware — lista preliminar de material
 
 | Componente | Modelo | Qtd. | Função |
@@ -134,7 +128,7 @@ Estudantes, docentes, laboratórios pedagógicos e pessoas interessadas em horti
 | Bomba de água | 12 V + depósito (**por adquirir**) | 1 | Rega |
 | Alimentação | Fontes 12 V e 5 V, fusíveis e drivers | — | Energia e proteção |
 
-Todos os componentes estão identificados, exceto a bomba de água. A quantidade final de servomotores depende do número de janelas.
+Todos os componentes estão identificados, exceto a bomba de água.
 
 ### Software e tecnologias
 
@@ -173,7 +167,7 @@ Os sensores enviam as leituras ao ESP32, que aplica as regras locais e comanda o
 | Ricardo Sanches | Hardware, circuitos e montagem |
 | Rui Francisco | Gestão do projeto, requisitos, testes e Inteligência Artificial |
 
-As entregas de cada milestone são preparadas por todos.
+Todas as entregas são preparadas por todos.
 
 ### Atividades
 
