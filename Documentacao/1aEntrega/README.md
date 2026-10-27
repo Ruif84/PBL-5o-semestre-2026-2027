@@ -112,7 +112,7 @@ Estudantes, docentes, laboratórios pedagógicos e pessoas interessadas em horti
 |---|---|---|---|
 | Microcontrolador | ESP32 DevKit V1 | 1 | Controlo local e ligação Wi-Fi |
 | Sensor do ar | DHT11 | 1 | Humidade do ar |
-| Sensor de temperatura | Keyestudio DS18B20 | 1 | Temperatura |
+| Sensor de temperatura | Keyestudio DS18B20 | 1 | Temperatura do ar |
 | Sensor de luminosidade | BH1750 | 1 | Luminosidade ambiente |
 | Sonda de solo | FABULETTA 7 em 1 (RS485 Modbus) | 1 | Temperatura, humidade, pH, EC, N, P e K do solo |
 | Transceiver RS485 | MAX3485 | 1 | Comunicação com a sonda de solo |
