@@ -11,7 +11,7 @@
 | **Docentes** | Pedro Rosa · Alexandre Pereira · João Monge · Carla Pereira |
 | **Unidades curriculares** | Sistemas Distribuídos · Computação Física e IoT · Inteligência Artificial · Engenharia de Software |
 | **Palavras-chave** | ESP32, IoT, miniestufa, sensores, automação, API REST, MySQL, inteligência artificial |
-| **Repositório** | [inserir ligação para o repositório GitHub] |
+| **Repositório** | https://github.com/Ruif84/PBL-5o-semestre-2026-2027 |
 
 ---
 
