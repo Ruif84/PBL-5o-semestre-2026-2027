@@ -124,7 +124,7 @@ Estudantes, docentes, laboratórios pedagógicos e pessoas interessadas em horti
 | Ventoinha | Ventoinha 5 V | 1 | Ventilação |
 | Aquecedor | PTC ventilado 12 V / 100 W | 1 | Aquecimento |
 | Iluminação | Tira LED 12 V | 1 | Demonstração de iluminação |
-| Bomba de água | 12 V + depósito (**por adquirir**) | 1 | Rega |
+| Bomba de água | 12 V + depósito | 1 | Rega |
 | Alimentação | Fontes 12 V e 5 V, fusíveis e drivers | — | Energia e proteção |
 
 Todos os componentes estão identificados, exceto a bomba de água.
