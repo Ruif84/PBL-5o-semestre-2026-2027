@@ -1,5 +1,4 @@
-# Relatório Técnico: Miniestufa Inteligente
-
+# Relatório Técnico: Smart Green
 **Proposta Inicial do Projeto — Milestone 1**
 
 | | |
