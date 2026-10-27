@@ -4,9 +4,8 @@
 
 | | |
 |---|---|
-| **Universidade** | Universidade Europeia |
-| **Faculdade** | IADE — Faculdade de Design, Tecnologia e Comunicação |
-| **Curso** | Licenciatura em Engenharia Informática (online) |
+| **Universidade** | Universidade Europeia IADE |
+| **Curso** | Licenciatura em Engenharia Informática |
 | **Elementos** | Cátia Macedo (20240609) · Ricardo Sanches (20241085) · Rui Francisco (20240912) |
 | **Projeto** | Miniestufa Inteligente — sistema IoT de monitorização, automação e análise de culturas |
 | **Docentes** | Pedro Rosa · Alexandre Pereira · João Monge · Carla Pereira |
@@ -192,3 +191,28 @@ As entregas de cada milestone são preparadas por todos.
 | Plano e validação de testes (ES) | Rui | até 15/01/2027* |
 | Modelo de IA | Cátia e Rui | até 29/01/2027 |
 | Entrega final (M3) | Todos | até 01/02/2027 |
+
+
+### Gráfico de Gantt
+
+```mermaid
+gantt
+    title Cronograma da Miniestufa Inteligente
+    dateFormat YYYY-MM-DD
+    axisFormat %d/%m
+    section Milestone 1
+    Proposta inicial (Todos)                      :2026-10-20, 2026-10-27
+    section Milestone 2
+    Requisitos ES (Rui)                           :2026-11-01, 2026-11-13
+    Funcionalidades IoT (Ricardo)                 :2026-11-01, 2026-11-14
+    Montagem do hardware (Ricardo)                :2026-11-01, 2026-12-31
+    Servidor, API e MySQL iniciais (Cátia)        :2026-11-01, 2026-11-30
+    Protótipo funcional M2 (Todos)                :crit, 2026-11-16, 2026-11-30
+    section Milestone 3
+    Planeamento do modelo de IA (Cátia)           :2026-12-01, 2026-12-18
+    Integração de atuadores e displays (Cátia e Ricardo) :2026-12-01, 2027-01-15
+    Base de dados e protocolo REST (Ricardo)      :2026-12-16, 2027-01-09
+    Plano e validação de testes (Rui)             :2026-12-16, 2027-01-15
+    Modelo de IA (Cátia e Rui)                    :2027-01-01, 2027-01-29
+    Entrega final M3 (Todos)                      :crit, 2027-01-16, 2027-02-01
+```
