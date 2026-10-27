@@ -150,7 +150,7 @@ Os sensores enviam as leituras ao ESP32, que aplica as regras locais e comanda o
 
 ### Esboço do artefacto físico
 
-![Esboço da miniestufa](Imagens/esboco.png)
+![Esboço da miniestufa](Imagens/SmartGreen-Esboco-Estufa_1.png)
 
 *Esboço da miniestufa gerado por IA.*
 
